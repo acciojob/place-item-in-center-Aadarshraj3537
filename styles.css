@@ -1,2 +1,15 @@
+/* CSS for the holder */
+.holder {
+  display: flex;              /* Enable flexbox layout */
+  justify-content: center;    /* Horizontally center the item */
+  align-items: center;        /* Vertically center the item */
+  width: 100vw;               /* Full viewport width */
+  height: 100vh;              /* Full viewport height */
+}
 
-/* Your CSS Code here. */
+/* CSS for item-1 */
+.item-1 {
+  width: 100px;               /* Set the width of item-1 */
+  height: 100px;              /* Set the height of item-1 */
+  background-color: red;      /* Set the background color to red */
+}
